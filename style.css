@@ -1,17 +1,17 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica;
-	background-image:url(images/backgroud-2.jpg);
+	background-image:url(backgroud-2.jpg);
 }
 
 header {
   height: 140px;
-  background-image:url(images/background-3.jpg);
+  background-image:url(background-3.jpg);
 }
 
 footer {
   height: 40px;
-  background-image:url(images/background-3.jpg);
+  background-image:url(background-3.jpg);
   text-align: left;
 }
 
