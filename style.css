@@ -9,6 +9,44 @@ header {
   background-image:url(background-3.jpg);
 }
 
+header h1{
+  font-size: 52px;
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  padding: 5px;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: Montserrat;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li{
+  font-size: 20px;
+  display: flex;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
 footer {
   height: 40px;
   background-image:url(background-3.jpg);
@@ -86,4 +124,31 @@ ol {
   margin-right: 150px;
   margin-left: 80px;
 }
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: aqua;
+  font-family: arial;
+  margin-left: 200px;
+}
+
+form input[type=text] {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  margin-left: 200px;
+}
+
+form button{
+  margin-left: 200px;
+}
+
 
