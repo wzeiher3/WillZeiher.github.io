@@ -10,6 +10,15 @@
   <body>
 
       <header>
+        <h1>Will Zeiher</h1>
+        <nav>
+            <ul>
+				      <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
         <div class="name">Will Zeiher</div>
         <h2>Software Engineer</h2>
       </header>  
@@ -25,35 +34,72 @@
             <p>Here are some interesting facts about me<p>
             <ul>
                 <li>I am currently a computer engineering student at Georgia Tech</li>
-                <li>I have been coding for about 5 years</li>
+                <li>I have been coding for about 5 years now</li>
                 <li>I use my synesthesia to help visualize coded objects</li>
             </ul>
 
-            <p>Dont hesitate to <a href="#contact">contact me!</a></p>
+            <p>Dont hesitate to contact me!</p>
         </section>
         <hr>
         <!--About Me -->
-        <article>
+        <section id="about">
           <h2 class="general-border">About Me</h2>
-            <p>I am an innovative, software engineering student who can't wait to make an impact on exciting projects in the tech space. Using Java and C++, I have developed digital video games like Battleship, Mancala, 2048, and my own RPG game. The best part about starting a new project is getting to brainstorm with a team of creative, great-minded developers.</p>
+            <p>As a student who has been working with programming languages for several years now, I have always had a great time working on a ton of exciting projects like Battleship, Mancala, 2048, and my own RPG videogame</p>
 
-            <p>Outside of programming, I enjoy adventure sports, playing trumpet, and engaging in new experiences.</p>
-        </article>
+            <p>Outside of programming, I enjoy adventure sports, playing trumpet, and engaging in new experiences</p>
+        </section>
       <hr>
+      
+      <!--Projects-->
+      <section id="projects">
+        <h2>Projects</h2>
+        <h3>Battleship</h3>
+          <p>It is a single player Battleship game that plays against a computer.
+             The application is targeted for kids and is built with Java.
+          </p>
+
+        <h3>Sonar Robot</h3>
+        <p>The project uses VHDL to make a robot circle around various, randomly placed beacons autonomously. Useful in 
+          academic research environments.
+        </p>
+      </section>
+
       <!--Contact-->
       <section id="contact">
           <h2 class="general-border">Contact Info</h2>
-            <h3>Places to contact me!</h3>
+            <p>Places to contact me!</p>
             <ol>
               <li>
-                <a href="https://linkedin.com/in/will-zeiher-3b3355185" target="_blank">LinkedIn</a>
+                <a href="linkedin.com/in/will-zeiher-3b3355185">LinkedIn</a>
               </li>
               <li>
-                <a href="https://github.com/wzeiher3" target="_blank">GitHub</a>
+                <a href="https://github.com/wzeiher3">GitHub</a>
              </li>
           </ol> 
-      </section>
 
+          <form>
+            <label for="Name">Name</label>
+            <input id="Name" type="text" name="name"
+             autofocus="on" maxlength="20" required />
+          </form>
+    
+          <form>
+            <label for="Email">Email</label>
+            <input id="Email" type="text" name="email"
+             autofocus="on" maxlength="20" required />
+          </form>
+    
+          <form>
+            <label for="form-message">Your message:</label>
+            <textarea id="form-message" name="message"
+            rows="4" cols="25"></textarea>
+          </form>
+          
+          <form>
+            <button type="submit">Submit</button>
+          </form>  
+        
+        </section>
       </main> 
 
       <footer>
@@ -64,3 +110,4 @@
 
   
 </html>
+  
