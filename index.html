@@ -6,6 +6,7 @@
     <title>Will Zeiher | Software Engineer | Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   </head>
   <body>
 
@@ -20,7 +21,7 @@
         </nav>
         
         <div class="name"></div>
-        <h2>Software Engineer</h2>
+        <h2></h2>
       </header>  
 
     <script src="script.js"></script>
@@ -45,7 +46,6 @@
         <section id="about">
           <h2 class="general-border">About Me</h2>
             <p>As a student who has been working with programming languages for several years now, I have always had a great time working on a ton of exciting projects like Battleship, Mancala, 2048, and my own RPG videogame</p>
-
             <p>Outside of programming, I enjoy adventure sports, playing trumpet, and engaging in new experiences</p>
         </section>
       <hr>
@@ -53,19 +53,28 @@
       <!--Projects-->
       <section id="projects">
         <h2>Projects</h2>
-        <h3>Battleship</h3>
-          <p>It is a single player Battleship game that plays against a computer.
-             The application is targeted for kids and is built with Java.
+        <h3>Quiz App</h3>
+          <p>This is an application that allows the user to take a short quiz on various trivia questions and is for anyone who 
+            wants to try to challenge their knowledge. I built this app to test my ability to have files linked properly and also 
+            to practice using jQuery.
           </p>
-
-        <h3>Sonar Robot</h3>
-        <p>The project uses VHDL to make a robot circle around various, randomly placed beacons autonomously. Useful in 
-          academic research environments.
+          <div class="repoLinks">
+            <a href="https://github.com/wzeiher3/quizApp.git">Repository</a>
+            <a href="https://wzeiher3.github.io/quizApp/">Live Link</a>
+          </div>
+        <h3>Shopping List</h3>
+        <p>This application allows the user to make a list of grocery items that can be checked and removed. The applicatoin 
+          is for anyone who can't remember everything they need to buy at the grocery store. I built the app to create a practical 
+          application as well as practice using APIs. 
         </p>
+        <div class="repoLinks">
+          <a href="https://github.com/thinkful-ei-rabbit/api-day-Will-Josh.git">Repository</a>
+          <a href="https://thinkful-ei-rabbit.github.io/api-day-Will-Josh/">Live Link</a>
+        </div>
       </section>
 	<hr>
       <!--Contact-->
-      <section id="contact">
+      <section id="contact" class="contact">
           <h2 class="general-border">Contact Info</h2>
             <p>Places to contact me!</p>
             <ol>
@@ -110,4 +119,6 @@
 
   
 </html>
+  
+
   
