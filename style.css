@@ -17,7 +17,28 @@ header {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica;
-	  background-image:url(backgroud-2.jpg);
+    background-image:url(backgroud-2.jpg);
+    
+  }
+
+  img{
+    width: 80%;	
+    border-radius: 8px;
+    padding-top: 20px;
+    border: 1px solid #c5c0b8;
+  }
+
+  header h1{
+    font-size: 52px;
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #lastSubmit{
+    margin-bottom: 20px;
   }
 }
 
@@ -27,6 +48,27 @@ header {
     flex-direction: column;
     font-family: Arial, Helvetica;
 	  background-image:url(backgroud-2.jpg);
+  }
+
+  img{
+    width: 80%;	
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #c5c0b8;
+  }
+
+  header h1{
+    font-size: 52px;
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #lastSubmit{
+    margin-bottom: 20px;
   }
 }
 
@@ -118,6 +160,7 @@ img{
   width: 80%;	
   border-radius: 8px;
   border: 1px solid #c5c0b8;
+  
 }
 
 /*border for separation*/
@@ -205,7 +248,5 @@ form button{
 #form-message{
   margin-left: 50px;
 }
-
-
 
 
